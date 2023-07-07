@@ -43,6 +43,8 @@ ul li {
     margin-bottom: 10px;
     padding: 10px;
     font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
 }
 
 ul li:hover {
@@ -53,8 +55,18 @@ ul li:hover {
     background-color: white;
 }
 
-.last-item:hover {
-    background-color: white;
+ul a.tbl-beli {
+    text-decoration: none;
+    color: black;
+}
+
+ul a li {
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+
+ul a li:hover {
+    background-color: rgb(177, 78, 226);
 }
 
 ul li span {

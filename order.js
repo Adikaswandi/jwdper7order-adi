@@ -1,5 +1,3 @@
-alert ("login berhasil");
-
 let itemOrder = [
     {
         dipesan : false,
